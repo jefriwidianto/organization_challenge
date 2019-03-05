@@ -34,9 +34,14 @@ Note: you can run plugin depedencis with CMD with comment /path_app/npm update.
     * FormRequest testing success
  - Datatables for list and function search
  - Alert
+ - Role user:
+    * [1] Account Manager
+    * [2] Member
   
  Note: run Unittest .\vendor\bin\phpunit --debug OR .\vendor\bin\phpunit --debug --filter OrganizationTest <with name Unittest>
  
  # File Migration
  - \Printerous\database\migrations\2019_02_28_153633_organization.php
  - \Printerous\database\migrations\2019_03_05_152319_person.php
+ 
+ Note: Add one field in table users "jabatan" for role app.
