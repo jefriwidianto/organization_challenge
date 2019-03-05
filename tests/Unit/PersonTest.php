@@ -75,7 +75,8 @@ class PersonTest extends TestCase
     #test jika gagal menyimpan database karena password kurag dari 6 char
     public function testUpdatePerson()
     {
-
+        $faker = \Faker\Factory::create();
+        
 	    $request1 = Person::orderBy('id', 'desc')->first();
 	    $id = $request1->id;
 

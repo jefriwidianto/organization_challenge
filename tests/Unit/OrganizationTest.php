@@ -79,6 +79,7 @@ class OrganizationTest extends TestCase
     #test jika gagal menyimpan database karena password kurag dari 6 char
     public function testUpdateOrganization()
     {
+        $faker = \Faker\Factory::create();
 
 	    $request1 = Organization::orderBy('id', 'desc')->first();
 	    $id = $request1->id;
