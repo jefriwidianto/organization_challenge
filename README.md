@@ -18,8 +18,8 @@
  
 # plugin:
  - "dependencies": {
-      "yajra/laravel-datatables-oracle": "v8.13.5"  jQuery DataTables API for Laravel 4|5
-      "uxweb/sweet-alert": "2.0.1"    A simple PHP package to show Sweet Alerts with the Laravel Framework
+      - "yajra/laravel-datatables-oracle": "v8.13.5"  jQuery DataTables API for Laravel 4|5
+      - "uxweb/sweet-alert": "2.0.1"    A simple PHP package to show Sweet Alerts with the Laravel Framework
     }
 
 Note: you can run plugin depedencis with CMD with comment /path_app/npm update.
